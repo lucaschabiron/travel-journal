@@ -1,0 +1,38 @@
+.destination {
+  display: flex;
+  margin-left: 1.5em;
+  margin-top: 50px;
+  max-height: 400px;
+  overflow: hidden;
+}
+
+.destination--image {
+  width: 150px;
+  height: 250px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.2);
+}
+
+.destination--info {
+  padding-top: 15px;
+  width: 70%;
+  margin-left: 20px;
+}
+
+.destination--info h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.destination a {
+  text-decoration: underline;
+  color: rgb(117, 117, 117);
+  letter-spacing: normal;
+}
+
+.destination h3 {
+  font-size: 1.2rem;
+  font-weight: 300;
+  letter-spacing: 1.2em;
+}

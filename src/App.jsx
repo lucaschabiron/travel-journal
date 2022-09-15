@@ -1,13 +1,13 @@
 import React from "react";
 import "./App.css";
 import Navbar from "./components/Navbar";
-import Destination from "./components/Destination";
+import Main from "./components/Main";
 
 function App() {
   return (
     <div className="container">
       <Navbar />
-      <Destination />
+      <Main />
     </div>
   );
 }
